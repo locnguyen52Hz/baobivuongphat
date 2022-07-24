@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+        integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="baobivuongphat.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bgr-w">
+        <div class="container-header">
+            <div class="logo elm">
+                <img src="pic/Baobivuongphat.png">
+            </div>
+
+            <div class="search elm">
+                <input type="text" placeholder="Tìm kiếm">
+                <box-icon name='search'></box-icon>
+            </div>
+
+            <div class="contact elm">
+                <div class="phone" style="color: #0072b8;font-weight: bold">
+                    <p>Liên hệ 1: 0968 569 755</p>
+                    <p>Liên hệ 2: 0968 569 755</p>
+
+                </div>
+            </div>
+
+            <div class="shopping-cart elm">
+                <p class="cart">
+                <p style="font-weight: bold">Giỏ hàng</p>
+                <p style="color: #0072b8; font-weight: bold;"> 0 sản phẩm</p>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <div class="navbar">
+        <div class="menu">
+            <div class="list-item hover">
+                
+                    <i class="fa-solid fa-bars"></i>
+                    <a href="">DANH MỤC SẢN PHẨM</a>
+                
+            </div>
+            <div class="hover">
+                <a href="">TRANG CHỦ</a>
+            </div>
+            <div class="hover">
+                <a href="">GIỚI THIỆU</a>
+            </div>
+            <div class="hover">
+                <a href="">SẢN PHẨM</a>
+            </div>
+            <div class="hover">
+                <a href="">TIN TỨC</a>
+            </div>
+            <div class="hover">
+                <a href="">LIÊN HỆ</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="banner">
+        <div class="left">
+            <ul class="bgr-w">
+                <li>
+                    <box-icon name='chevron-right'></box-icon>
+                    <a href="">Màng bọc thực phẩm</a>
+                </li>
+                <li>
+                    <box-icon name='chevron-right'></box-icon>
+
+                    <a href="">Túi nilon PA-PE</a>
+                </li>
+                <li>
+                    <box-icon name='chevron-right'></box-icon>
+
+                    <a href="">Khay xốp</a>
+                </li>
+                <li>
+                    <box-icon name='chevron-right'></box-icon>
+
+                    <a href="">Khay nhựa</a>
+                </li>
+                <li>
+                    <box-icon name='chevron-right'></box-icon>
+
+                    <a href="">Bao bì thực phẩm khác</a>
+                </li>
+                <li>
+                    <box-icon name='chevron-right'></box-icon>
+
+                    <a href="">Hộp nhựa</a>
+                </li>
+                <li>
+                    <box-icon name='chevron-right'></box-icon>
+
+                    <a href="">Khay SUSHI</a>
+                </li>
+            </ul>
+        </div>
+        <div class="midle">
+            <img src="pic/Layer 193.png">
+        </div>
+
+        <div class="right">
+            <img src="pic/Layer 192.png">
+            <img src="pic/Layer 191.png">
+        </div>
+
+    </div>
+    <div class="bottom">
+        <div class="container-orange-icons bgr-w">
+            <div class="orange-icon">
+                <div class="icon">
+                    <img src="pic/Layer 25.png">
+                </div>
+                <p>Hàng chính hãng chất lượng</p>
+            </div>
+
+            <div class="orange-icon">
+                <div class="icon">
+                    <img src="pic/Layer 24.png">
+
+                </div>
+                <p>Giao hàng nhanh chóng</p>
+            </div>
+            <div class="orange-icon ">
+                <div class="icon">
+                    <img src="pic/thanhtoan.png">
+
+                </div>
+                <p>Thanh toán linh hoạt</p>
+            </div>
+            <div class="orange-icon ">
+                <div class="icon">
+                    <img src="pic/Layer 27.png">
+
+                </div>
+                <p>Đổi trả dẽ dàng</p>
+            </div>
+            <div class="orange-icon">
+                <div class="icon">
+                    <img src="pic/Layer 28.png">
+
+                </div>
+                <p>Hậu mãi chu đáo</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container bgr-w">
+            <span class="ctrl">
+                <span id="prev">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                </span>
+                <span id="next">
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                </span>
+            </span>
+            <div class="title">
+                <p id="best-sell">SẢN PHẨM BÁN CHẠY</p>
+                <img src="pic/Rectangle 17.png">
+
+            </div>
+            <div class="item">
+                <div class="img-item">
+                    <img src="pic/Layer 186.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">
+                
+                                    200.000đ
+                                </div>
+                            <div id="price">
+                                300.000đ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 188.png">
+
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 187.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 189.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 190.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- màng bọc thực phẩm -->
+            <span class="ctrl">
+                <span class="see-all">
+                    <span>
+                        <a href="">
+                            Xem tất cả
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+
+                    </span>
+                </span>
+            </span>
+            <div class="title bgr-w">
+                <p>MÀNG BỌC THỰC PHẨM</p>
+                <img src="pic/Rectangle 17.png">
+
+            </div>
+            <div class="item bgr-w">
+                <div class="img-item">
+                    <img src="pic/Layer 181.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">
+                
+                                    200.000đ
+                                </div>
+                            <div id="price">
+                                300.000đ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 182.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 183.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 184.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 185.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- túi nilon pape -->
+            <span class="ctrl">
+                <span class="see-all">
+                    <span>
+                        <a href="">
+                            Xem tất cả
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+
+                    </span>
+                </span>
+            </span>
+            <div class="title bgr-w">
+                <p id="nilon">TÚI NILON PA-PE</p>
+                <img src="pic/Rectangle 17.png">
+
+            </div>
+            <div class="item bgr-w">
+                <div class="img-item">
+                    <img src="pic/Layer 177.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">
+                
+                                    200.000đ
+                                </div>
+                            <div id="price">
+                                300.000đ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 178.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 177.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 179.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 180.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- khay xốp khay nhựa -->
+            <span class="ctrl">
+                <span class="see-all">
+                    <span>
+                        <a href="">
+                            Xem tất cả
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+
+                    </span>
+                </span>
+            </span>
+            <div class="title bgr-w">
+                <p>KHAY XỐP - KHAY NHỰA</p>
+                <img src="pic/Rectangle 17.png">
+
+            </div>
+            <div class="item bgr-w">
+                <div class="img-item">
+                    <img src="pic/Layer 171.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">
+                
+                                    200.000đ
+                                </div>
+                            <div id="price">
+                                300.000đ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 173.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 172.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 174.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 175.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bao bì thực phẩm khác -->
+            <span class="ctrl">
+                <span class="see-all">
+                    <span>
+                        <a href="">
+                            Xem tất cả
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+
+                    </span>
+                </span>
+            </span>
+            <div class="title bgr-w">
+                <p id="other">BAO BÌ THỰC PHẨM KHÁC</p>
+                <img src="pic/Rectangle 17.png">
+
+            </div>
+            <div class="item bgr-w">
+                <div class="img-item">
+                    <img src="pic/Layer 166.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">
+                
+                                    200.000đ
+                                </div>
+                            <div id="price">
+                                300.000đ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 167.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 168.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 169.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 170.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- hộp nhựa -->
+            <span class="ctrl">
+                <span class="see-all">
+                    <span>
+                        <a href="">
+                            Xem tất cả
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+
+                    </span>
+                </span>
+            </span>
+            <div class="title bgr-w">
+                <p id="plastic-box">HỘP NHỰA</p>
+                <img src="pic/Rectangle 17.png">
+
+            </div>
+            <div class="item bgr-w">
+                <div class="img-item">
+                    <img src="pic/Layer 161.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">
+                
+                                    200.000đ
+                                </div>
+                            <div id="price">
+                                300.000đ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 162.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 163.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 164.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 165.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- khay sushi -->
+            <span class="ctrl">
+                <span class="see-all">
+                    <span>
+                        <a href="">
+                            Xem tất cả
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+
+                    </span>
+                </span>
+            </span>
+            <div class="title bgr-w">
+                <p id="sushi">KHAY SUSHI</p>
+                <img src="pic/Rectangle 17.png">
+
+            </div>
+            <div class="item bgr-w">
+                <div class="img-item">
+                    <img src="pic/Layer 156.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">
+                
+                                    200.000đ
+                                </div>
+                            <div id="price">
+                                300.000đ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 157.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 159.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 172.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item">
+                    <img src="pic/Layer 157.png">
+                    <div class="name-price">
+                        <b>Màng bọc thực phẩm hộp THP 45cm</b>
+                        <div class="price">
+                            <div id="sale-off">200.000đ</div>
+                            <div id="price">300.000đ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title bgr-w">
+                <p id="new-post">BÀI VIẾT MỚI NHẤT</p>
+                <img src="pic/Rectangle 17.png">
+            </div>
+            <div class="item bgr-w">
+            <div class="container-new-post">
+                <div class="new-post">
+                    <img src="pic/Layer 152.png">
+                    <div class="new-post-title">
+                        <b>
+                            Bạn đang tìm nguồn hàng đồ gia dụng mà chưa biết lấy ở đâu?
+                        </b>
+                    </div>
+                    <div class="described">
+                        <p>Kinh doanh đồ gia dụng là ý tưởng kinh doanh nhỏ tại nhà ở nông thôn phù hợp cho các bạn tre
+                            mới
+                            bắt...</p>
+
+                    </div>
+                    <div class="see-btn">
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="new-post">
+                    <img src="pic/Layer 152.png">
+                    <div class="new-post-title">
+                        <b>
+                            Bạn đang tìm nguồn hàng đồ gia dụng mà chưa biết lấy ở đâu?
+                        </b>
+                    </div>
+                    <div class="described">
+                        <p>Kinh doanh đồ gia dụng là ý tưởng kinh doanh nhỏ tại nhà ở nông thôn phù hợp cho các bạn tre
+                            mới
+                            bắt...</p>
+
+                    </div>
+                    <div class="see-btn">
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="new-post">
+                    <img src="pic/Layer 152.png">
+                    <div class="new-post-title">
+                        <b>
+                            Bạn đang tìm nguồn hàng đồ gia dụng mà chưa biết lấy ở đâu?
+                        </b>
+                    </div>
+                    <div class="described">
+                        <p>Kinh doanh đồ gia dụng là ý tưởng kinh doanh nhỏ tại nhà ở nông thôn phù hợp cho các bạn tre
+                            mới
+                            bắt...</p>
+
+                    </div>
+                    <div class="see-btn">
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+                <div class="new-post">
+                    <img src="pic/Layer 152.png">
+                    <div class="new-post-title">
+                        <b>
+                            Bạn đang tìm nguồn hàng đồ gia dụng mà chưa biết lấy ở đâu?
+                        </b>
+                    </div>
+                    <div class="described">
+                        <p>Kinh doanh đồ gia dụng là ý tưởng kinh doanh nhỏ tại nhà ở nông thôn phù hợp cho các bạn tre
+                            mới
+                            bắt...</p>
+
+                    </div>
+                    <div class="see-btn">
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="sp-market bgr-w">
+        <div class="container-sp-market">
+            <div id="coop-mart">
+                <img src="pic/Layer 149.png">
+            </div>
+            <div id="family-mart">
+                <img src="pic/Layer 148.png">
+            </div>
+            <div id="aeon">
+                <img src="pic/Layer 145.png">
+            </div>
+            <div id="winmart">
+                <img src="pic/Layer 146.png">
+            </div>
+            <div id="tony-house">
+                <img src="pic/Layer 147.png">
+            </div>
+            <div id="coop-food">
+                <img src="pic/Layer 150.png">
+            </div>
+            <div id="coopmart-vn">
+                <img src="pic/Layer 151.png">
+            </div>
+        </div>
+    </div>
+
+    <footer class="bgr-w">
+        <div class="support">
+            <div class="background">
+                <img src="pic/Layer 52.png">
+                <p style="color: #ffe011;">BẠN CẦN HỖ TRỢ?</p>
+                <p style="color: white;">Nhấc máy lên và gọi cho chúng tôi theo số: 0968 569 755</p>
+                <div class="btn-support">
+                    <button>HỖ TRỢ TRỰC TUYẾN</button>
+                </div>
+            </div>
+        </div>
+        <div class="contact page">
+            <div id="contact-info">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p class="text">Công ty TNHH Thương mại và Dịch vụ Vượng Phát Việt Nam</p>
+                <p class="text">Số nhà 4 ngách 22/58 phố Kim Quan Tổ 5, Việt Hưng, Long Biên, Hà Nội</p>
+                <p class="text">Nhà máy: Xã Dương Liễu, Huyện Hoài Đức, Hà Nội</p>
+                <p class="text">Hotline: 0968 569 755</p>
+                <p class="text">Email: baobivuongphat@gmail.com</p>
+            </div>
+
+            <div id="information">
+                <h3>THÔNG TIN CHUNG</h3>
+                <div>
+                    <a class="text" href="">Giới thiệu công ty</a><br>
+                    <a class="text" href="">Hệ thống các siêu thị</a><br>
+                    <a class="text" href="">Tuyển dụng</a><br>
+                    <a class="text" href="">Liên hệ và góp ý</a><br>
+                    <a class="text" href="">Quy định thanh toán</a><br>
+                </div>
+            </div>
+
+            <div id="customer-support">
+                <div>
+                    <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                    <a class="text" href="">Hướng dẫn mua hàng Online</a><br>
+                    <a class="text" href="">Mua trả góp qua thẻ tín dụng</a><br>
+                    <a class="text" href="">Chính sách bảo hành, đổi trả</a><br>
+                    <a class="text" href="">Giao hàng và lắp đặt</a><br>
+                    <div class="socical-media">
+                        <div class="icons facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+
+                        <div class="icons twiter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+
+                        <div class="icons google">
+                            <i class="fa-brands fa-google-plus"></i>
+                        </div>
+
+                        <div class="icons skyper">
+                            <i class="fa-brands fa-skype"></i>
+                        </div>
+
+                        <div class="icons youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="link-facebook">
+                <a href="">
+                    <h3 style="color: black;">
+                        CHÚNG TÔI TRÊN FACEBOOK
+                    </h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="bgr-other">
+            <div class="other page">
+                <div class="payment">
+                    <b>Chấp nhận thanh toán:</b>
+                    <a href="">
+                        <img src="pic/Layer 56.png">
+                    </a>
+                </div>
+                <div class="user-email">
+                    <div>
+                        <b>Nhận bản tin:</b>
+                        <input type="email" placeholder="Email của bạn">
+                        <button>Đăng ký</button>
+                    </div>
+                </div>
+                <div class="license">
+                    <img src="pic/Layer 55.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">© Bản quyền thuộc về baobivuongphat.com | Cung cấp bởi RT</div>
+
+    </footer>
+</body>
+
+</html>
